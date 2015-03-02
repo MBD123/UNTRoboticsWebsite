@@ -1,0 +1,22 @@
+{
+  "name": "UNTRoboticsWebsite",
+  "version": "0.0.0",
+  "homepage": "https://github.com/UNTRoboticsSociety/UNTRoboticsWebsite",
+  "authors": [
+    "SolarKing <thetennisplayah@gmail.com>"
+  ],
+  "description": "This is the website for the UNT Robotics Society",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "~1.11.3",
+    "bootstrap": "~3.3.2"
+  }
+}
