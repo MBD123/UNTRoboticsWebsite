@@ -52,3 +52,10 @@
   left: 50%;
   border: white thin solid;
 }
+
+.view-social-item
+{
+  width: 60px;
+  height: 60px;
+  display: block;
+}
