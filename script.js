@@ -29,6 +29,8 @@ $(document).ready(function()
   $("#view-splash").height(splashHeight);
   $("#view-menu").height($(window).height());
   setNavbarPos();
+
+  loadWebFonts();
 });
 
 $(window).resize(function()
@@ -82,4 +84,18 @@ function setNavbarPos()
     $("#view-nav").css("position", "absolute");
     $("#view-nav").css("top", splashHeight);
   }
+}
+
+
+/**
+ * This loads web fonts from the Google Fonts web loader
+ * Currently using Montserrat and Droid Serif
+ */
+function loadWebFonts()
+{
+  WebFont.load({
+    google: {
+      families: ['Montserrat', 'Source Sans Pro']
+    }
+  });
 }
